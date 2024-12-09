@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#FF0303"
+    tools:context=".MainActivity2">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:gravity="center"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="423dp"
+            android:layout_height="20sp"
+            app:srcCompat="@color/design_default_color_error" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="73dp"
+            android:gravity="center_horizontal"
+            android:padding="50px"
+            android:text="Выберите город"
+            android:textColor="#000000"
+            android:textSize="34sp" />
+
+        <LinearLayout
+            android:layout_width="410dp"
+            android:layout_height="108dp"
+            android:background="@drawable/border"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView7"
+                android:layout_width="70dp"
+                android:layout_height="98dp"
+                android:layout_marginVertical="25px"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/borisoglebsk__1_"/>
+
+            <TextView
+                android:id="@+id/textView5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:paddingVertical="15dp"
+                android:text="Борисоглебск"
+                android:textColor="#000000"
+                android:textSize="34sp"
+                app:cornerRadius="0dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="410dp"
+            android:layout_height="108dp"
+            android:background="@drawable/border"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView8"
+                android:layout_width="70dp"
+                android:layout_height="98dp"
+                android:layout_marginVertical="25px"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/moskov"/>
+
+            <TextView
+                android:id="@+id/textView9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:paddingVertical="15dp"
+                android:text="Москва            "
+                android:textColor="#000000"
+                android:textSize="34sp"
+                app:cornerRadius="0dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="410dp"
+            android:layout_height="106dp"
+            android:background="@drawable/border"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView12"
+                android:layout_width="70dp"
+                android:layout_height="98dp"
+                android:layout_marginVertical="25px"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/boronesg"/>
+
+            <TextView
+                android:id="@+id/textView12"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:paddingVertical="15dp"
+                android:text=" Воронеж         "
+                android:textColor="#000000"
+                android:textSize="34sp"
+                app:cornerRadius="0dp" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="410dp"
+            android:layout_height="108dp"
+            android:background="@drawable/border"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView19"
+                android:layout_width="70dp"
+                android:layout_height="98dp"
+                android:layout_marginVertical="25px"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/saratov"/>
+
+            <TextView
+                android:id="@+id/textView19"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:paddingVertical="15dp"
+                android:text="Саратов           "
+                android:textColor="#000000"
+                android:textSize="34sp"
+                app:cornerRadius="0dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="410dp"
+            android:layout_height="101dp"
+            android:background="@drawable/border"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView13"
+                android:layout_width="70dp"
+                android:layout_height="98dp"
+                android:layout_marginVertical="25px"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/bolgograd" />
+
+            <TextView
+                android:id="@+id/textView13"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:paddingVertical="15dp"
+                android:text="Волгоград        "
+                android:textColor="#000000"
+                android:textSize="34sp"
+                app:cornerRadius="0dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="410dp"
+            android:layout_height="106dp"
+            android:background="@drawable/border"
+            android:gravity="center_vertical"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:id="@+id/imageView14"
+                android:layout_width="70dp"
+                android:layout_height="98dp"
+                android:layout_marginVertical="25px"
+                android:layout_weight="1"
+                app:srcCompat="@drawable/tambov"/>
+
+            <TextView
+                android:id="@+id/textView114"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_weight="1"
+                android:gravity="start"
+                android:paddingVertical="15dp"
+                android:text="Тамбов            "
+                android:textColor="#000000"
+                android:textSize="34sp"
+                app:cornerRadius="0dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
