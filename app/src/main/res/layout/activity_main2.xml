@@ -49,18 +49,21 @@
                 android:layout_weight="1"
                 app:srcCompat="@drawable/borisoglebsk__1_"/>
 
-            <TextView
-                android:id="@+id/textView5"
-                android:layout_width="wrap_content"
+            <Button
+                android:id="@+id/button"
+                android:layout_width="226dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:layout_weight="1"
+                android:backgroundTint="#00FDFDFD"
                 android:gravity="start"
                 android:paddingVertical="15dp"
                 android:text="Борисоглебск"
                 android:textColor="#000000"
-                android:textSize="34sp"
+                android:textSize="28sp"
                 app:cornerRadius="0dp" />
+
+
 
         </LinearLayout>
 
@@ -79,17 +82,18 @@
                 android:layout_weight="1"
                 app:srcCompat="@drawable/moskov"/>
 
-            <TextView
-                android:id="@+id/textView9"
-                android:layout_width="wrap_content"
+            <Button
+                android:id="@+id/button22"
+                android:layout_width="226dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:layout_weight="1"
+                android:backgroundTint="#00FDFDFD"
                 android:gravity="start"
                 android:paddingVertical="15dp"
-                android:text="Москва            "
+                android:text="Москва"
                 android:textColor="#000000"
-                android:textSize="34sp"
+                android:textSize="28sp"
                 app:cornerRadius="0dp" />
 
         </LinearLayout>
@@ -109,17 +113,18 @@
                 android:layout_weight="1"
                 app:srcCompat="@drawable/boronesg"/>
 
-            <TextView
-                android:id="@+id/textView12"
-                android:layout_width="wrap_content"
+            <Button
+                android:id="@+id/button3"
+                android:layout_width="226dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:layout_weight="1"
+                android:backgroundTint="#00FDFDFD"
                 android:gravity="start"
                 android:paddingVertical="15dp"
-                android:text=" Воронеж         "
+                android:text="Воронеж"
                 android:textColor="#000000"
-                android:textSize="34sp"
+                android:textSize="28sp"
                 app:cornerRadius="0dp" />
 
         </LinearLayout>
@@ -138,17 +143,18 @@
                 android:layout_weight="1"
                 app:srcCompat="@drawable/saratov"/>
 
-            <TextView
-                android:id="@+id/textView19"
-                android:layout_width="wrap_content"
+            <Button
+                android:id="@+id/button4"
+                android:layout_width="226dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:layout_weight="1"
+                android:backgroundTint="#00FDFDFD"
                 android:gravity="start"
                 android:paddingVertical="15dp"
-                android:text="Саратов           "
+                android:text="Саратов"
                 android:textColor="#000000"
-                android:textSize="34sp"
+                android:textSize="28sp"
                 app:cornerRadius="0dp" />
 
         </LinearLayout>
@@ -168,17 +174,18 @@
                 android:layout_weight="1"
                 app:srcCompat="@drawable/bolgograd" />
 
-            <TextView
-                android:id="@+id/textView13"
-                android:layout_width="wrap_content"
+            <Button
+                android:id="@+id/button5"
+                android:layout_width="226dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:layout_weight="1"
+                android:backgroundTint="#00FDFDFD"
                 android:gravity="start"
                 android:paddingVertical="15dp"
-                android:text="Волгоград        "
+                android:text="Волгоград"
                 android:textColor="#000000"
-                android:textSize="34sp"
+                android:textSize="28sp"
                 app:cornerRadius="0dp" />
 
         </LinearLayout>
@@ -198,17 +205,18 @@
                 android:layout_weight="1"
                 app:srcCompat="@drawable/tambov"/>
 
-            <TextView
-                android:id="@+id/textView114"
-                android:layout_width="wrap_content"
+            <Button
+                android:id="@+id/button6"
+                android:layout_width="226dp"
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20dp"
                 android:layout_weight="1"
+                android:backgroundTint="#00FDFDFD"
                 android:gravity="start"
                 android:paddingVertical="15dp"
-                android:text="Тамбов            "
+                android:text="Тамбов"
                 android:textColor="#000000"
-                android:textSize="34sp"
+                android:textSize="28sp"
                 app:cornerRadius="0dp" />
 
         </LinearLayout>
