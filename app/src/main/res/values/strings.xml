@@ -1,3 +1,28 @@
 <resources>
     <string name="app_name">work11</string>
+    <string name="text1"><u>Утром"         "12°</u></string>
+    <string name="text2"><u>Днем "          "21°</u></string>
+    <string name="text3"><u>Ночью"         "11°</u></string>
+
+    <string name="text4"><u>Утром"         "10°</u></string>
+    <string name="text5"><u>Днем "         "17°</u></string>
+    <string name="text6"><u>Ночью"         "11°</u></string>
+
+    <string name="text7"><u>Утром"         "7°</u></string>
+    <string name="text8"><u>Днем "        "15°</u></string>
+    <string name="text9"><u>Ночью"         "8°</u></string>
+
+    <string name="text10"><u>Утром"        "14°</u></string>
+    <string name="text11"><u>Днем "        "21°</u></string>
+    <string name="text12"><u>Ночью"       "15°</u></string>
+
+    <string name="text14"><u>Утром"        "17°</u></string>
+    <string name="text15"><u>Днем "        "27°</u></string>
+    <string name="text16"><u>Ночью"       "18°</u></string>
+
+    <string name="text17"><u>Утром"        "9°</u></string>
+    <string name="text18"><u>Днем "        "16°</u></string>
+    <string name="text19"><u>Ночью"       "10°</u></string>
+
+
 </resources>
